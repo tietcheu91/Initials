@@ -1,0 +1,23 @@
+
+#ali{font-family: helvetica; clear:both; padding-top:10px 0;}
+#ali ul{ border-top: 1px black solid; border-bottom: 1px black solid; margin:20px 0; padding: 10px 0;}
+#ali ul li{display :inline; padding: 15px}
+.pagef{ width:900px;}
+#calvain{width:}
+body {line-height:1;
+	background-image: url(james9.jpg); 
+	background-repeat:no-repeat; 
+	background-attachment:fixed;
+	background-size:100%;
+}
+#wrapper{width:900px;  
+margin:0px auto; 
+background-color:white;
+}
+#footer{clear:both; 
+		margin-top:20px; 
+		border-top:1px solid black;
+		padding: 20px 0px;
+		font-size: 80%;
+		text-align: center;
+}
