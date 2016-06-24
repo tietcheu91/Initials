@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main ()
+// this program calculates the final balance of a bank's customer
 // a is the starting balance 
 // b is the number of months
 // c is the total deposit
