@@ -1,0 +1,66 @@
+#include <iostream>
+using namespace std;
+int main ()
+// a is the starting balance 
+// b is the number of months
+// c is the total deposit
+// d is the total withdrawal
+// x is the annual interest
+// y is the monthly interest
+// z is the final balance
+float a, b, c, d, x, y, z, e;
+do
+{
+cout<<"please enter your starting balance"<<endl;
+cin>>a;
+  if (a>=0)
+    cout<<"You have $" <<a<< "in your bank account"<<endl;
+  else
+    cout << "You entered an invalid value"<<endl;
+    cout<< "for how many months have you been saving?"<<endl;
+    cin>>b;
+  if (b>=0)
+    cout<<"you have saved for" <<b<<"month (s)"<<endl;
+  else
+    cout << "You entered an invalid value"<<endl;
+    cout <<"please enter the value of all your deposits "<<endl;
+    cin>>c;
+  if (c>=0)
+    cout<<"You deposited $"<<c<<endl;
+  else
+    cout << "You entered an invalid value"<<endl;
+  cout<<"please enter the value of all withdrawals"<<endl;
+  cin>>d;
+  if (d>=0)
+  cout <<"you withdrawn $"<<d<<endl;
+  else
+    cout << "You entered an invalid value"<<endl;
+    cout<<"please enter the value of the annual interest rate"<<endl;
+    cin>>x;
+    if (x>=0)
+    cout<<"you annual interest rate is "<<x/100<<endl;
+    else
+    cout << "You entered an invalid value"<<endl;
+    y=x/100 * 1/12;
+    cout<<"your monthly interest is" <<y<<endl;
+    for (b=1; b<=3; b=b+1)
+    {
+    z= (a+c-d) * (1+y) *b;
+    cout<<"your final balance is" << z<< endl;
+    }
+    cout<<"will you like to run this again? Press any bottom to run it again or k to quit \n";
+    cin>>e;
+    }
+    while (e!=k);
+    return 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
